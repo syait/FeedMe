@@ -14,11 +14,6 @@
 export const config = {
   sources: [
     {
-      name: "wx-rss",
-      url: "https://feed.uitshare.com/feeds/all.rss",
-      category: "默认",
-    },
-    {
       name: "太隐",
       url: "https://wangyurui.com/feed.xml",
       category: "个人博客",
