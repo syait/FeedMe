@@ -14,8 +14,28 @@
 export const config = {
   sources: [
     {
+      name: "wx-rss",
+      url: "https://feed.uitshare.com/feeds/all.rss",
+      category: "默认",
+    },
+    {
+      name: "太隐",
+      url: "https://wangyurui.com/feed.xml",
+      category: "个人博客",
+    },
+    {
+      name: "更好生活",
+      url: "https://quaily.com/jiayifun/feed/atom",
+      category: "个人博客",
+    },
+    {
       name: "虹线",
       url: "https://1q43.blog/feed",
+      category: "个人博客",
+    },
+    {
+      name: "Owen的博客",
+      url: "https://www.owenyoung.com/atom.xml",
       category: "个人博客",
     },
     {
@@ -42,7 +62,17 @@ export const config = {
       name: "酷壳",
       url: "https://coolshell.cn/feed",
       category: "技术博客",
-    }
+    },
+    {
+      name: "观人看时间",
+      url: "https://feedpress.me/wx-iwatch1024",
+      category: "wx-rss",
+    },
+    {
+      name: "城市数据团",
+      url: "http://www.jintiankansha.me/rss/GEYTAOBVGZ6DMZDEGEZGCNZXGQ4TCODBGQ2GKZLBGBSGEMBSMM4DMYRXGZRGKYLBGMYGKNJWMY3A====",
+      category: "wx-rss",
+    },
   ],
   maxItemsPerFeed: 30,
   dataPath: "./data",
