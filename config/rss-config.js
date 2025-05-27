@@ -14,75 +14,35 @@
 export const config = {
   sources: [
     {
-      name: "Hacker News 近期最佳",
-      url: "https://hnrss.org/best",
-      category: "科技资讯",
+      name: "虹线",
+      url: "https://1q43.blog/feed",
+      category: "个人博客",
     },
     {
-      name: "Hacker News 历史每日前十",
-      url: "https://rsshub.rssforever.com/github/issue/headllines/hackernews-daily",
-      category: "科技资讯",
+      name: "壹葦可航",
+      url: "https://letter.justgoidea.com/feed/atom",
+      category: "个人博客",
     },
     {
-      name: "Github 今日热门",
-      url: "https://rsshub.rssforever.com/github/trending/daily/any",
-      category: "代码项目",
+      name: "槿呈Goidea",
+      url: "https://justgoidea.com/rss.xml",
+      category: "个人博客",
     },
     {
-      name: "Github 近一周热门",
-      url: "https://rsshub.rssforever.com/github/trending/weekly/any",
-      category: "代码项目",
+      name: "Another Dayu",
+      url: "https://anotherdayu.com/feed/",
+      category: "个人博客",
     },
     {
-      name: "Hugging Face 每日论文",
-      url: "https://rsshub.rssforever.com/huggingface/daily-papers",
-      category: "科研论文",
-    },
-    {
-      name: "Hugging Face 博客",
-      url: "https://rsshub.rssforever.com/huggingface/blog",
+      name: "阮一峰的网络日志",
+      url: "http://www.ruanyifeng.com/blog/atom.xml",
       category: "技术博客",
     },
     {
-      name: "Google 开发者博客",
-      url: "https://rsshub.rssforever.com/google/developers/en",
+      name: "酷壳",
+      url: "https://coolshell.cn/feed",
       category: "技术博客",
-    },
-    {
-      name: "Google 研究博客",
-      url: "https://rsshub.rssforever.com/google/research",
-      category: "技术博客",
-    },
-    // {
-    //   name: "Product Hunt 今日热门",
-    //   url: "https://rsshub.rssforever.com/producthunt/today",
-    //   category: "产品资讯",
-    // },
-    {
-      name: "LINUX DO 今日热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=daily",
-      category: "论坛",
-    },
-    {
-      name: "LINUX DO 近一周热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=weekly",
-      category: "论坛",
-    },
-    {
-      name: "LINUX DO 近一月热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=monthly",
-      category: "论坛",
-    },
-    {
-      name: "V2EX 今日热门",
-      url: "https://rsshub.rssforever.com/v2ex/topics/hot",
-      category: "论坛",
-    },
-    {
-      name: "Bangumi 近一月热门",
-      url: "https://rsshub.rssforever.com/bangumi.tv/anime/followrank",
-      category: "番剧资讯",
-    },
+    }
   ],
   maxItemsPerFeed: 30,
   dataPath: "./data",
